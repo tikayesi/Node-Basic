@@ -1,6 +1,14 @@
-var n = 10;
-var i = 0;
-while (i < n){
-    console.log("perulangan ke " + i);
-    i++;
+var json = [
+    {
+        name : "Tika Yesi",
+        age : 23
+    },
+    {
+        name : "Kristiani",
+        age : 25
+    }
+];
+
+for (var i =0; i<json.length; i++){
+    console.log(json[i]);
 }
