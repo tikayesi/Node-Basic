@@ -1,6 +1,14 @@
 var npm = "15753067";
-if (npm == "15753067")
-    { console.log('Tika Yesi Kristiani');
-} else {
-    console.log('Bukan Tika Yesi Kristiani');
+
+switch (npm) {
+    case "15753067":
+    console.log("Tika Yesi");
+    break;
+    case "15753067":
+    console.log("Anita");
+    break;
+    default :
+        console.log("no name");
+
+    
 }
