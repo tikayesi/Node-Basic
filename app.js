@@ -1,14 +1,6 @@
-var npm = "15753067";
-
-switch (npm) {
-    case "15753067":
-    console.log("Tika Yesi");
-    break;
-    case "15753067":
-    console.log("Anita");
-    break;
-    default :
-        console.log("no name");
-
-    
+var n = 10;
+var i = 0;
+while (i < n){
+    console.log("perulangan ke " + i);
+    i++;
 }
